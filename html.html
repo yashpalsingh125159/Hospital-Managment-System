@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arogyashala – Premium Healthcare, Mathura</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<!-- ── NAVBAR ── -->
+<nav id="navbar">
+  <a class="nav-logo" href="#hero">Arogya<span>shala</span></a>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#doctors">Doctors</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#appointment" class="nav-cta">Book Appointment</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#hero" onclick="closeMobile()">Home</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#doctors" onclick="closeMobile()">Doctors</a>
+  <a href="#gallery" onclick="closeMobile()">Gallery</a>
+  <a href="#testimonials" onclick="closeMobile()">Reviews</a>
+  <a href="#appointment" onclick="closeMobile()">Book Appointment</a>
+</div>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-content">
+    <div class="hero-badge">Trusted Healthcare Since 2008</div>
+    <h1>Your Health Is<br>Our <em>Greatest</em><br>Priority</h1>
+    <p>World-class medical care delivered with compassion. Expert specialists, advanced diagnostics, and a patient-first approach — all in the heart of Mathura.</p>
+    <div class="hero-btns">
+      <a href="#appointment" class="btn-primary">Book Appointment →</a>
+      <a href="#services" class="btn-outline">Our Services</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="about-img-wrap reveal">
+    <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=800&q=80" alt="Hospital interior">
+    <div class="about-badge-fl">
+      <strong>15+</strong>
+      <span>Years Trusted</span>
+    </div>
+  </div>
+  <div class="reveal">
+    <span class="section-tag">About Us</span>
+    <h2 class="section-title">Healing with Heart,<br>Leading with Science</h2>
+    <p class="section-sub">Arogyashala is Mathura's premier multi-specialty healthcare centre, combining cutting-edge medical technology with genuine human care. We believe every patient deserves the best — delivered with dignity.</p>
+    <div class="about-features">
+      <div class="feat-item"><span class="ico">🏥</span> Multi-Specialty Centre</div>
+      <div class="feat-item"><span class="ico">🔬</span> Advanced Diagnostics</div>
+      <div class="feat-item"><span class="ico">👨‍⚕️</span> 30+ Specialists</div>
+      <div class="feat-item"><span class="ico">🚑</span> 24/7 Emergency</div>
+      <div class="feat-item"><span class="ico">💊</span> In-house Pharmacy</div>
+      <div class="feat-item"><span class="ico">🧬</span> Modern Lab</div>
+    </div>
+    <a href="#appointment" class="btn-primary" style="display:inline-block;margin-top:32px;">Get Consultation →</a>
+  </div>
+</section>
+
+<!-- ── SERVICES ── -->
+<section id="services">
+  <div class="services-head">
+    <div class="reveal">
+      <span class="section-tag">What We Offer</span>
+      <h2 class="section-title">Comprehensive<br>Medical Services</h2>
+    </div>
+    <p class="section-sub reveal" style="max-width:320px;">From routine checkups to complex procedures — we have you covered at every step of your health journey.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="svc-icon">❤️</div>
+      <h3>Cardiology</h3>
+      <p>Heart care with state-of-the-art ECG, Echo, and interventional procedures by expert cardiologists.</p>
+      <span class="svc-tag">Learn more →</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="svc-icon">🦷</div>
+      <h3>Dentistry</h3>
+      <p>Complete dental solutions — from cosmetic dentistry and orthodontics to oral surgery and implants.</p>
+      <span class="svc-tag">Learn more →</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="svc-icon">🩻</div>
+      <h3>Radiology</h3>
+      <p>High-resolution MRI, CT-Scan, X-Ray, and Ultrasound imaging for precise, timely diagnosis.</p>
+      <span class="svc-tag">Learn more →</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="svc-icon">🚨</div>
+      <h3>Emergency Care</h3>
+      <p>Round-the-clock emergency services with trained paramedics and a fully equipped trauma unit.</p>
+      <span class="svc-tag">Learn more →</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="svc-icon">🧠</div>
+      <h3>Neurology</h3>
+      <p>Expert diagnosis and management of brain, spine, and nervous system conditions.</p>
+      <span class="svc-tag">Learn more →</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="svc-icon">🩺</div>
+      <h3>General Medicine</h3>
+      <p>Comprehensive primary care for adults including preventive health and chronic disease management.</p>
+      <span class="svc-tag">Learn more →</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="svc-icon">🤱</div>
+      <h3>Gynaecology</h3>
+      <p>Women's health services including prenatal care, fertility support, and minimally invasive surgery.</p>
+      <span class="svc-tag">Learn more →</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="svc-icon">🦴</div>
+      <h3>Orthopaedics</h3>
+      <p>Bone, joint, and sports injury treatments with advanced arthroscopic and replacement surgeries.</p>
+      <span class="svc-tag">Learn more →</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── DOCTORS ── -->
+<section id="doctors">
+  <div style="text-align:center;margin-bottom:0">
+    <span class="section-tag reveal">Our Team</span>
+    <h2 class="section-title reveal">Meet Our Expert Doctors</h2>
+    <p class="section-sub reveal" style="margin:0 auto;">Highly qualified specialists committed to delivering exceptional care with compassion.</p>
+  </div>
+  <div class="doctors-grid">
+    <div class="doctor-card reveal">
+      <img class="doctor-img" src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80" alt="Dr. Sharma">
+      <div class="doctor-info">
+        <h3>Dr. Rajiv Sharma</h3>
+        <span>Cardiologist</span>
+        <p>MBBS, MD – 18 yrs experience</p>
+        <div class="doctor-social">
+          <a href="#">📧</a><a href="#">🔗</a><a href="#">📞</a>
+        </div>
+      </div>
+    </div>
+    <div class="doctor-card reveal">
+      <img class="doctor-img" src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80" alt="Dr. Priya">
+      <div class="doctor-info">
+        <h3>Dr. Priya Mehta</h3>
+        <span>Gynaecologist</span>
+        <p>MBBS, MS – 14 yrs experience</p>
+        <div class="doctor-social">
+          <a href="#">📧</a><a href="#">🔗</a><a href="#">📞</a>
+        </div>
+      </div>
+    </div>
+    <div class="doctor-card reveal">
+      <img class="doctor-img" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80" alt="Dr. Agarwal">
+      <div class="doctor-info">
+        <h3>Dr. Sunil Agarwal</h3>
+        <span>Neurologist</span>
+        <p>MBBS, DM – 20 yrs experience</p>
+        <div class="doctor-social">
+          <a href="#">📧</a><a href="#">🔗</a><a href="#">📞</a>
+        </div>
+      </div>
+    </div>
+    <div class="doctor-card reveal">
+      <img class="doctor-img" src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=400&q=80" alt="Dr. Gupta">
+      <div class="doctor-info">
+        <h3>Dr. Anita Gupta</h3>
+        <span>Orthopaedic Surgeon</span>
+        <p>MBBS, MS – 12 yrs experience</p>
+        <div class="doctor-social">
+          <a href="#">📧</a><a href="#">🔗</a><a href="#">📞</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── APPOINTMENT ── -->
+<section id="appointment">
+  <div class="appt-grid">
+    <div class="appt-info reveal">
+      <span class="section-tag" style="background:rgba(13,148,136,.2);color:var(--teal-lt);">Book Now</span>
+      <h2 class="section-title" style="color:var(--white);">Schedule Your<br>Appointment Today</h2>
+      <p class="section-sub" style="color:rgba(255,255,255,.6);">Our team is ready to assist you. Fill in your details and we'll confirm your slot within minutes.</p>
+      <div class="appt-perks">
+        <div class="perk"><div class="perk-icon">⚡</div><span>Instant confirmation via SMS & Email</span></div>
+        <div class="perk"><div class="perk-icon">🩺</div><span>Choose from 30+ specialist doctors</span></div>
+        <div class="perk"><div class="perk-icon">🔒</div><span>Your data is 100% private & secure</span></div>
+        <div class="perk"><div class="perk-icon">📅</div><span>Flexible slots — morning, afternoon, evening</span></div>
+      </div>
+    </div>
+    <div class="appt-form reveal">
+      <h3>Request an Appointment</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>First Name *</label>
+          <input id="fname" type="text" placeholder="Rahul">
+        </div>
+        <div class="form-group">
+          <label>Last Name *</label>
+          <input id="lname" type="text" placeholder="Verma">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Email *</label>
+          <input id="email" type="email" placeholder="rahul@example.com">
+        </div>
+        <div class="form-group">
+          <label>Phone *</label>
+          <input id="phone" type="tel" placeholder="+91 98765 43210">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Preferred Date *</label>
+          <input id="apptDate" type="date">
+        </div>
+        <div class="form-group">
+          <label>Time Slot *</label>
+          <select id="timeSlot">
+            <option value="">Select slot</option>
+            <option>09:00 AM – 10:00 AM</option>
+            <option>10:00 AM – 11:00 AM</option>
+            <option>11:00 AM – 12:00 PM</option>
+            <option>02:00 PM – 03:00 PM</option>
+            <option>03:00 PM – 04:00 PM</option>
+            <option>05:00 PM – 06:00 PM</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Department *</label>
+        <select id="dept">
+          <option value="">Select department</option>
+          <option>Cardiology</option>
+          <option>Dentistry</option>
+          <option>Radiology</option>
+          <option>Neurology</option>
+          <option>Gynaecology</option>
+          <option>Orthopaedics</option>
+          <option>General Medicine</option>
+          <option>Emergency</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message / Symptoms (optional)</label>
+        <textarea id="msg" placeholder="Briefly describe your concern…"></textarea>
+      </div>
+      <button class="btn-submit" onclick="submitForm()">Confirm Appointment →</button>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section id="testimonials">
+  <div style="text-align:center">
+    <span class="section-tag reveal">Patient Stories</span>
+    <h2 class="section-title reveal">What Our Patients Say</h2>
+    <p class="section-sub reveal" style="margin:0 auto 56px;">Real experiences from the people we've had the privilege of serving.</p>
+  </div>
+  <div class="testi-slider">
+    <div class="testi-card reveal">
+      <div class="stars">★★★★★</div>
+      <p>"The doctors at Arogyashala are exceptional. Dr. Sharma diagnosed my condition quickly and the entire team was incredibly warm and professional."</p>
+      <div class="testi-author">
+        <img class="testi-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+        <div><strong>Manish Yadav</strong><span>Cardiology Patient</span></div>
+      </div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="stars">★★★★★</div>
+      <p>"From registration to discharge, everything was seamless. The cleanliness, care and expertise here is unmatched anywhere in Mathura."</p>
+      <div class="testi-author">
+        <img class="testi-avatar" src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
+        <div><strong>Sunita Sharma</strong><span>Maternity Patient</span></div>
+      </div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="stars">★★★★☆</div>
+      <p>"Excellent diagnostic facilities. Got my MRI and report within 2 hours. Dr. Agarwal's consultation was thorough and reassuring."</p>
+      <div class="testi-author">
+        <img class="testi-avatar" src="https://randomuser.me/api/portraits/men/56.jpg" alt="">
+        <div><strong>Arun Chaudhary</strong><span>Neurology Patient</span></div>
+      </div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="stars">★★★★★</div>
+      <p>"The emergency team acted swiftly when I brought my father in. Their quick response and expert care saved his life. Forever grateful."</p>
+      <div class="testi-author">
+        <img class="testi-avatar" src="https://randomuser.me/api/portraits/women/63.jpg" alt="">
+        <div><strong>Kavita Singh</strong><span>Emergency Care</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── GALLERY ── -->
+<section id="gallery">
+  <span class="section-tag reveal">Our Facility</span>
+  <h2 class="section-title reveal">A Look Inside Arogyashala</h2>
+  <div class="gallery-filter reveal" style="margin-top:28px;">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="ward">Wards</button>
+    <button class="filter-btn" data-filter="lab">Lab &amp; Imaging</button>
+    <button class="filter-btn" data-filter="ot">Operation Theatre</button>
+    <button class="filter-btn" data-filter="reception">Reception</button>
+  </div>
+  <div class="gallery-grid reveal">
+    <div class="gallery-item" data-cat="reception" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1519494080410-f9aa76cb4283?auto=format&fit=crop&w=600&q=80" alt="Reception">
+      <div class="gallery-overlay"><span>Reception Area</span></div>
+    </div>
+    <div class="gallery-item" data-cat="ward" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&w=600&q=80" alt="Ward">
+      <div class="gallery-overlay"><span>Patient Ward</span></div>
+    </div>
+    <div class="gallery-item" data-cat="lab" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80" alt="Lab">
+      <div class="gallery-overlay"><span>Diagnostic Lab</span></div>
+    </div>
+    <div class="gallery-item" data-cat="ot" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=600&q=80" alt="OT">
+      <div class="gallery-overlay"><span>Operation Theatre</span></div>
+    </div>
+    <div class="gallery-item" data-cat="lab" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=600&q=80" alt="MRI">
+      <div class="gallery-overlay"><span>MRI Suite</span></div>
+    </div>
+    <div class="gallery-item" data-cat="ward" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=600&q=80" alt="ICU">
+      <div class="gallery-overlay"><span>ICU Ward</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox">
+  <button id="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightbox-img" src="" alt="">
+  <p id="lightbox-caption"></p>
+</div>
+
+<!-- ── CONTACT / FOOTER ── -->
+<footer id="contact">
+  <div class="contact-top">
+    <div class="contact-brand reveal">
+      <div class="nav-logo">Arogya<span style="color:var(--gold)">shala</span></div>
+      <p>Mathura's trusted multi-specialty healthcare centre — delivering compassionate, world-class medical care since 2008.</p>
+      <div class="social-row">
+        <a class="social-btn" href="#" title="Facebook">f</a>
+        <a class="social-btn" href="#" title="Instagram">📸</a>
+        <a class="social-btn" href="#" title="Twitter">🐦</a>
+        <a class="social-btn" href="#" title="YouTube">▶</a>
+      </div>
+    </div>
+    <div class="contact-col reveal">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#doctors">Our Doctors</a></li>
+        <li><a href="#appointment">Book Appointment</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="contact-col reveal">
+      <h4>Contact Us</h4>
+      <ul>
+        <li>
+          <div class="contact-info-item">
+            <span class="ci-icon">📍</span>
+            <div><strong>Address</strong>Near Yamuna Bridge, Mathura, Uttar Pradesh – 281001, India</div>
+          </div>
+        </li>
+        <li>
+          <div class="contact-info-item">
+            <span class="ci-icon">📞</span>
+            <div><strong>Phone</strong><a href="tel:7217491312">+91 72174 91312</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="contact-info-item">
+            <span class="ci-icon">✉️</span>
+            <div><strong>Email</strong><a href="mailto:arogyashala00@gmail.com">arogyashala00@gmail.com</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="contact-info-item">
+            <span class="ci-icon">🕐</span>
+            <div><strong>OPD Hours</strong>Mon–Sat: 8 AM – 8 PM<br>Emergency: 24/7</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bar">
+    <p>© 2025 Arogyashala Healthcare Pvt. Ltd. All rights reserved.</p>
+    <div style="display:flex;gap:24px;">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Disclaimer</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">↑</button>
+
+<!-- Toast -->
+<div id="toast">✅ Appointment request sent! We'll confirm shortly.</div>
+
+<script src="js.js"></script>
+
+</body>
+</html>
